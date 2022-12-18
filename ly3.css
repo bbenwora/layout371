@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 100px 200px 200px 200px;
+    background: #ffe2e7;
+}
+
+div {
+    margin: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav-item {
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    background: #f78199;
+    padding: 15px;
+}
+
+.dock {
+    display: flex;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.dock>div {
+    flex: 1 0 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: #f48db4;
+}
+
+.footer {
+    background: #faa6bd;
+    padding: 20px;
+}
